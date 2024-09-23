@@ -1,0 +1,117 @@
+Map-Reduce Results (Total Price Per Customer):
+{
+  _id: 'Ant O. Knee',
+  value: 95
+}
+{
+  _id: 'Busby Bee',
+  value: 125
+}
+{
+  _id: 'Cam Elot',
+  value: 60
+}
+{
+  _id: 'Don Quis',
+  value: 155
+}
+Aggregation Pipeline Results (Total Price Per Customer):
+{
+  _id: 'Ant O. Knee',
+  value: 95
+}
+{
+  _id: 'Busby Bee',
+  value: 125
+}
+{
+  _id: 'Cam Elot',
+  value: 60
+}
+{
+  _id: 'Don Quis',
+  value: 155
+}
+Map-Reduce Results (Average Quantity Per Item):
+{
+  _id: 'apples',
+  value: {
+    count: 4,
+    qty: 35,
+    avg: 8.75
+  }
+}
+{
+  _id: 'carrots',
+  value: {
+    count: 2,
+    qty: 15,
+    avg: 7.5
+  }
+}
+{
+  _id: 'chocolates',
+  value: {
+    count: 3,
+    qty: 15,
+    avg: 5
+  }
+}
+{
+  _id: 'oranges',
+  value: {
+    count: 7,
+    qty: 63,
+    avg: 9
+  }
+}
+{
+  _id: 'pears',
+  value: {
+    count: 1,
+    qty: 10,
+    avg: 10
+  }
+}
+Aggregation Pipeline Results (Average Quantity Per Item):
+{
+  _id: 'apples',
+  value: {
+    count: 4,
+    qty: 35,
+    avg: 8.75
+  }
+}
+{
+  _id: 'carrots',
+  value: {
+    count: 2,
+    qty: 15,
+    avg: 7.5
+  }
+}
+{
+  _id: 'chocolates',
+  value: {
+    count: 3,
+    qty: 15,
+    avg: 5
+  }
+}
+{
+  _id: 'oranges',
+  value: {
+    count: 7,
+    qty: 63,
+    avg: 9
+  }
+}
+{
+  _id: 'pears',
+  value: {
+    count: 1,
+    qty: 10,
+    avg: 10
+  }
+}
+true

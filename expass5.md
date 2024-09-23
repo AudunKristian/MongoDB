@@ -27,4 +27,7 @@ To solve these tasks I used MongoSH together with Mongo Compass. For some of the
 ![Image 9](./Pictures/Average_Aggregation_pipeline.png)
 
 
-* In experiment 2 we 
+* In experiment 2 we show screenshots from the file MapReduceAndAggregation.js, which also is in the same folder as this one. This file was run in mongosh, and the file is containing two examples, which both are solved using map reduce and aggregation. We get the same result in both cases. The output is saved to the file output.txt. 
+* The Map reduce function is useful because it allows us to group data by various fields and the perform calculations on the grouped data. In many cases we are interested in a subgroup of the data. 
+* In the first example we calculate the total price for each customer. Total price for each customer is useful to know for a business, because it helps the business to know which customers are important and how to adjust their sales strategy based on more information.
+* In the second example we calculate the average price for each product, based on orders on or after 2020-03-01. This is displayed together with the count and the qantity of each product. Count means how many orders the product is a part of, while the quantity are the total products of this type in all orders. This is useful for a business to know because it helps to them to understand which products are selling the most in a certain period of time. This can be used to adapt their sales strategy to be even better.     
