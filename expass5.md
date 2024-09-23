@@ -8,9 +8,8 @@ To solve these tasks I used MongoSH together with Mongo Compass. For some of the
 * It was hard to understand what MONGODB actually was in the beginning. I now understand that it is a tool for handling databases, which is easy to scale. There are different ways to handle the data within this tool.
 * It took some tries to be able to run the verification of the hash of the MongoDB installation file. I solved the task by creating a powershell script which I ran in powershell. I finally got correct output when I saw that I had a small typo in one of the filenames. I tried also different options like gitBash and wsl. 
 
-
-#Verification of the MongoDB Compass
-![Image 0](./Pictures/HashVerificationVerification.png)
+## Verification of the MongoDB Compass
+![Image 0](./Pictures/HashVerification.png)
 * The powershell that was run was checkMongoDBHash.ps1, which is located in the same folder as this one. The location of the file was in the download folder, so the script will not work from this repository. 
 
 ## Screenshots from Experiment 1, Crud Operations:
